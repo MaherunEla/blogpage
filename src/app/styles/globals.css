@@ -2,26 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base {
+  body {
+    font-size: 1rem;
+    box-sizing: border-box;
+    position:relative;
+    overflow-x:hidden;
+    background:white;
+    @apply font-sen;
+   
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  }
+
+  .display{
+    @apply  font-bold text-[56px] xl:leading-[64px];
+  }
+  h1{
+    @apply  font-bold text-5xl xl:leading-[64px];
+  }
+  h2{
+    @apply font-sen  font-bold text-xl sm:text-2xl lg:text-4xl xl:leading-[48px];
+  }
+  h3{
+    @apply  font-bold text-3xl leading-9 ;
+  }
+  h4{
+    @apply font-bold text-2xl leading-8  ;
+  }
+  h5{
+    @apply  font-bold text-xl leading-8;
+  }
+  h6{
+    @apply font-bold text-base leading-6 ;
+  }
+  .b1{
+    @apply font-inter font-normal text-base leading-7;
+  }
+  .bg-style{
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+  .sb{
+    @apply border border-red-600;
+  }
+  .button{
+    @apply py-4 px-12 font-bold font-sen text-lg ;
+  }
+  .p_text{
+    @apply font-inter text-base font-medium tracking-[3px] leading-5 uppercase;
+  }
+  p{
+    @apply font-inter text-base font-normal leading-7
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.container {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  max-width:1280px;
+
+}
+@media (min-width:640px){
+  .container{
+    width:calc(100% - 60px);
+  }
+}
+@media (min-width:960px){
+  .container{
+    width:calc(100% - 80px);
+  }
 }
