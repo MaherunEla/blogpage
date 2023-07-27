@@ -27,7 +27,7 @@
     @apply font-sen  font-bold text-[28px] leading-10 -tracking-[1px];
   }
   h4{
-    @apply font-bold text-base md:text-xl lg:text-2xl leading-8  ;
+    @apply font-sen font-bold text-base md:text-xl lg:text-2xl leading-8  ;
   }
   h5{
     @apply  font-bold text-xl leading-8;

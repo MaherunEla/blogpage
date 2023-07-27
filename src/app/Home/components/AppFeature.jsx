@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const AppFeature = () => {
   return (
-    <div className='container'>
-        <div className='flex flex-row gap-[45px]'>
+    <div className='container py-32'>
+        <div className='flex flex-col md:flex-row  gap-[45px]'>
             <div className='flex flex-col text-mediumgray'>
                 <span>We are</span>
                 <h4>Featured in</h4>

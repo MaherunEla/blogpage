@@ -7,6 +7,7 @@ import Author from './Author'
 
 import AppFeature from './AppFeature'
 import Testimonial from './Testimonial'
+import JoinTeam from './JoinTeam'
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
     <Author/>
     <AppFeature/>
     <Testimonial/>
+    <JoinTeam/>
     </>
   )
 }

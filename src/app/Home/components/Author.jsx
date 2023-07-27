@@ -13,7 +13,7 @@ const Author = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {author.map((item, index) => (
           <div
-            className="w-[296px] h-[324px]  border border-lightgray bg-lightgray hover:border-lightyellow hover:bg-lightyellow flex flex-col items-center justify-center gap-4"
+            className="py-10 px-7 border border-lightgray bg-lightgray hover:border-lightyellow hover:bg-lightyellow flex flex-col items-center justify-center gap-4"
             key={index}
           >
             <div>

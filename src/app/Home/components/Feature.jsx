@@ -5,6 +5,7 @@ import { AllBlogdata } from './AllData'
 
 const Feature = () => {
   const post = AllBlogdata.slice(0,4);
+  console.log({post});
   return (
     <div className='container py-32'>
         <div className='flex flex-col lg:flex-row items-center justify-between gap-8'>

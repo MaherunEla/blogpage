@@ -8,7 +8,7 @@ export const navdata =[
     {
         id:2,
         page:"Blog",
-        href:'/'
+        href:'/blog/?page=1'
 
     },
     {
