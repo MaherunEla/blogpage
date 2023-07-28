@@ -15,10 +15,10 @@
   }
 
   .display{
-    @apply  font-bold text-[56px] xl:leading-[64px];
+    @apply  font-bold text-[56px] xl:leading-[64px] -tracking-[2px];
   }
   h1{
-    @apply  font-bold text-5xl xl:leading-[64px];
+    @apply  font-sen font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-[64px];
   }
   h2{
     @apply font-sen  font-bold text-xl sm:text-2xl lg:text-4xl xl:leading-[48px];

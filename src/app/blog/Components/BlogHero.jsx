@@ -5,7 +5,7 @@ import Image from 'next/image'
 const BlogHero = () => {
   return (
     <div className='bg-levender'>
-        <div className='container py-[94px] flex flex-col md:flex-row items-center justify-between '>
+        <div className='container py-20 lg:py-[94px] flex flex-col md:flex-row items-center justify-between gap-8'>
             <div className=' w-full lg:max-w-xl flex flex-col gap-5'>
                 <span className='font-inter text-base font-medium leading-5 tracking-[3px] uppercase'>Featured Post</span>
                 <div className='mb-[32px]'>
@@ -24,14 +24,14 @@ const BlogHero = () => {
 
             </div>
 
-            <div>
+           
             <div className='w-full h-[300px] lg:w-[515px] lg:h-[359px] relative'>
                 <Image src='/assets/images/Blog/blogbg.png'fill objectFit alt="bgimage"/>
 
 
             </div>
 
-            </div>
+           
             
         </div>
 

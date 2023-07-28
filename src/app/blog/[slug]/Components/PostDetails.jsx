@@ -1,16 +1,19 @@
 "use client";
 import React from 'react'
 import { useParams } from 'next/navigation'
-import { AllBlogdata } from '@/app/home/Components/AllData'
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { AllBlogdata } from '@/app/Home/components/AllData';
 
 
 const PostDetails = () => {
     const param = useParams()
-    const blog = AllBlogdata.find(e=>e.slug == param?.slug)
+    const blog=AllBlogdata.find(e=>e.slug==param?.slug)
+    
     console.log({param,blog});
     const post = AllBlogdata.filter(item=>item.slug == param?.slug )
+    console.log({post});
   return (
     <div className='container py-12 lg:py-32'>
         <div className='flex flex-col items-center justify-center'>
@@ -31,8 +34,8 @@ const PostDetails = () => {
              </div>
              <h1 className='mb-8'>{blog.title}</h1>
 
-             <div className='flex flex-row' >
-              <Image src={blog.icon} width={24} height={24}/>
+             <div className='flex flex-row gap-2' >
+              <Image src={blog.icon} width={24} height={24} alt="icon"/>
               <h4>{blog.category.name}</h4>
 
              </div>
@@ -92,10 +95,10 @@ const PostDetails = () => {
             {
               
                 post.map((item,index)=>(
-                  <Link href={`/blog/${item.slug}`}>
-                <div className='flex flex-col ' key={index}>
+                  <Link href={`/blog/${item.slug}`} key={index}>
+                <div className='flex flex-col ' >
                   <div className='w-full h-[300px] lg:w-[405px] lg:h-[318px] relative mb-8'>
-                  <Image src={item.image} fill objectFit="cover"/>
+                  <Image src={item.image} fill objectFit="cover" alt="image"/>
 
                   </div>
                   <span className='l1 mb-4 text-mediumgray'>By <span className='text-purple'>{item.authors.title}</span>  l   {item.date} </span>

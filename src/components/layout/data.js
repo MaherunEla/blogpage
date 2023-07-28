@@ -14,13 +14,13 @@ export const navdata =[
     {
         id:3,
         page:"About Us",
-        href:'/'
+        href:'/aboutus'
 
     },
     {
         id:4,
         page:"Contact Us",
-        href:'/'
+        href:'/contactus'
 
     }
 ]

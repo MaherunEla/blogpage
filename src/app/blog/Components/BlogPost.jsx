@@ -54,10 +54,10 @@ const BlogPost = () => {
 
                         </div>
                         <div >
-                            <span className='font-inter text-base font-medium leading-5 tracking-[3px] text-purple uppercase'>
+                            <span className='font-inter text-base font-medium leading-5 tracking-[3px] text-purple uppercase mb-5'>
                            {item.category.name}
                             </span>
-                            <h2>{item.title}</h2>
+                            <h2 className='mb-4'>{item.title}</h2>
                             <p className='text-mediumgray'>{item.subTitle}</p>
 
 

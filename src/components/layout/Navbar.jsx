@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className='  flex flex-col items-center self-end'>
                     {
                         navdata.map((item,index)=>(
-                            <Link href={item.href} className='b1 py-2 text-white' key={index}>{item.page}</Link>
+                            <Link href={item.href} className='b1 py-2 text-white' onClick={handle} key={index}>{item.page}</Link>
                         ))
                     }
                      <Link href="/" className='button text-black bg-white font-sen'>Subscribe</Link>

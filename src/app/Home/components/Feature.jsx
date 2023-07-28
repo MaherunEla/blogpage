@@ -11,7 +11,7 @@ const Feature = () => {
         <div className='flex flex-col lg:flex-row items-center justify-between gap-8'>
             <div className=' w-full lg:w-[733px]'>
                 <h2 className='mb-8'>Featured Post</h2>
-                <div className='border border-mediumgray  flex flex-col gap-8 p-8'>
+                <div className='border border-mediumgray border-opacity-40 flex flex-col gap-8 p-8'>
                     <div className='w-full h-[300px] lg:w-[669px] lg:h-[352px] relative'>
                     <Image src="/assets/images/Home/homeab.png" fill alt="feature"/>
                     </div>
@@ -23,7 +23,7 @@ const Feature = () => {
 
                     </div>
                     <div>
-                    <Link href="/" className='bg-yellow button'>Read More</Link>
+                    <Link href="/blog/?page=1" className='bg-yellow button'>Read More &#8250;</Link>
 
                     </div>
                    
@@ -43,11 +43,14 @@ const Feature = () => {
              
               {
                 post.map((item,index)=>(
-                  <div className='flex flex-col py-8 px-8 hover:border hover:border-lightyellow hover:bg-lightyellow  h-full lg:h-[181px]' key={index}>
+                  <Link href={`/blog/${item.slug}` }key={index}>
+                  <div className='flex flex-col py-8 px-8 hover:border hover:border-lightyellow hover:bg-lightyellow  h-full lg:h-[181px]' >
                     <span className='l1'>By <span className='text-purple'>{item.authors.title}</span>  l  <span>{item.date}</span>  </span>
                     <h4>{item.title}</h4>
 
                  </div>
+                  </Link>
+                  
 
                 ))
               }

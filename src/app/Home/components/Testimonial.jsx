@@ -35,7 +35,7 @@ const Testimonial = () => {
             <SwiperNextButton/>
           </div>
           {author.map((item, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div>
                 <h4 className="mb-[121px] ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

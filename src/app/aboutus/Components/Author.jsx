@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import { AllBlogdata } from "./AllData";
+import { AllBlogdata } from "@/app/Home/components/AllData";
 import {BsFacebook} from 'react-icons/bs'
 import {BiLogoTwitter} from 'react-icons/bi'
 import {AiFillLinkedin,AiOutlineInstagram} from 'react-icons/ai'
 import Link from "next/link";
 
 const Author = () => {
-  const author = AllBlogdata.slice(0, 4);
+  const author = AllBlogdata.slice(0, 8);
   return (
     <div className="container py-32">
       <h2 className="text-center mb-12">List of Authors</h2>

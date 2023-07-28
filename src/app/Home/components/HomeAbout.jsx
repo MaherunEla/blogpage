@@ -21,7 +21,7 @@ const HomeAbout = () => {
                 <div className='flex flex-col gap-4'>
                 <h2>We are a community of content writers who share their learnings</h2>
                 <p className='text-mediumgray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <span className='font-sen text-lg font-bold leading-6 text-purple'>Read More</span>
+                <span className='font-sen text-lg font-bold leading-6 text-purple'>Read More &#8250;</span>
 
                 </div>
                 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { IoIosArrowForward } from 'react-icons/io'
 
 const HomeHero = () => {
   return (
@@ -21,8 +22,9 @@ const HomeHero = () => {
                 
 
                 </div>
-                <div className='py-12'>
-                <Link href="/" className="button bg-yellow ">Read More</Link>
+                <div className='flex flex-row items-center border w-[204px] h-[56px] border-yellow bg-yellow'>
+                <Link href="/blog/?page=1" className="pl-[45px] text-sm md:text-lg font-bold text-black ">Read More </Link>
+                <IoIosArrowForward className="mt-2px fill-[#232536]"/>
 
                 </div>
                 

@@ -22,7 +22,7 @@ const Footer = () => {
                         <Link href={item.href} key={index} className='b1 font-inter'>{item.page}</Link>
                     ))
                 }
-                <Link href="/" className='b1 font-inter'>Privacy Policy</Link>
+                <Link href="/privacy" className='b1 font-inter'>Privacy Policy</Link>
               {/* mobile icon */}
             
             </div>

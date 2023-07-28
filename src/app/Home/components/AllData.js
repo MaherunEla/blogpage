@@ -8,7 +8,7 @@ export const AllBlogdata = [
       },
       slug:"design-tips-for-designers-that-cover-everything-you-need",
       icon: '/assets/images/Home/Icon.svg',
-      date: "2023-07-13",
+      date: "Aug 23, 2021",
       title: "Design tips for designers that cover everything you need",
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -33,7 +33,7 @@ export const AllBlogdata = [
       },
       slug:"how-to-build-rapport-with-your-web-design-clients",
       icon: '/assets/images/Home/shuttle.svg',
-       date: "2023-07-14",
+       date: "Aug 23, 2021",
       title: "How to build rapport with your web design clients",
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -57,7 +57,7 @@ export const AllBlogdata = [
         slug:"economy"
       },
       slug:"logo-design-trends-to-avoid-in-2022",
-      date: "2023-07-17",
+      date: "Aug 23, 2021",
       icon: '/assets/images/Home/economy.svg',
       title: "Logo design trends to avoid in 2022",
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
@@ -113,7 +113,7 @@ export const AllBlogdata = [
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
        authors: {
-        image: '/assets/images/Home/author5.png',
+        image: '/assets/images/About/author5.png',
         title: "Guy Hawkins",
         slug:"guy-hawkins",
         address: "New york, USA",
@@ -131,14 +131,14 @@ export const AllBlogdata = [
         name:"Business",
         slug:"business"
       },
-      slug:" ad",
+      slug:"the-Future-of-Artificial-Intelligence",
        date: "2023-07-14",
        icon: '/assets/images/Home/catagory2.svg',
       title: "The Future of Artificial Intelligence",
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       authors: {
-        image: '/assests/images/home/author6.png',
+        image: '/assets/images/About/author6.png',
         title: "Eleanor Pena",
         slug:"eleanor-pena",
         address: "New york, USA",
@@ -163,7 +163,7 @@ export const AllBlogdata = [
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       authors: {
-        image: '/assets/images/Home/author2.png',
+        image: '/assets/images/About/author7.png',
         title: "Robert Fox",
         slug:"robert-fox",
         address: "New york, USA",
@@ -188,9 +188,9 @@ export const AllBlogdata = [
     subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       authors: {
-        image: '/assests/images/home/author4.png',
-        title: "Floyd Miles",
-        slug:"floyd-miles",
+        image: '/assets/images/About/author8.png',
+        title: "Jacob Jones",
+        slug:"jacob-jones",
         address: "New york, USA",
         subTitle: "Content Writer @Company",
         bio: {
@@ -213,7 +213,7 @@ export const AllBlogdata = [
     subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       authors: {
-        image: '/assests/images/home/author4.png',
+        image: '/assets/images/Home/author4.png',
         title: "Floyd Miles",
         slug:"floyd-miles",
         address: "New york, USA",
