@@ -12,7 +12,7 @@ const PostDetails = () => {
     const blog=AllBlogdata.find(e=>e.slug==param?.slug)
     
     console.log({param,blog});
-    const post = AllBlogdata.filter(item=>item.slug == param?.slug )
+    const post = AllBlogdata.filter(item=>item.slug == param?.slug && (item.id!=blog.id))
     console.log({post});
   return (
     <div className='container py-12 lg:py-32'>
@@ -34,18 +34,18 @@ const PostDetails = () => {
              </div>
              <h1 className='mb-8'>{blog.title}</h1>
 
-             <div className='flex flex-row gap-2' >
+             <div className='flex flex-row gap-2 mb-16' >
               <Image src={blog.icon} width={24} height={24} alt="icon"/>
               <h4>{blog.category.name}</h4>
 
              </div>
             </div>
-           <div className='py-16'>
-           <div className='w-full h-[400px] lg:w-[1280px] lg:h-[582px] relative '>
-              <Image src={blog.image} fill objectFit="cover" alt="post"/>
+           
+           <div className='w-full h-[300px] lg:w-[1280px] lg:h-[582px] relative '>
+              <Image src={blog.image} fill  alt="post"/>
             </div>
 
-           </div>
+         
           <div className='w-full lg:w-[843px] py-32'>
           <h2 className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</h2>
           <p className='mb-12'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>

@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className='container flex flex-col items-center justify-center py-32 '>
         <div className='w-full lg:max-w-3xl mb-16'>
-            <p className='text-center text-base font-black leading-10 tracking-[3px] mb-3'>Contact us</p>
+            <p className='text-center text-base font-black leading-10 tracking-[3px] mb-3 uppercase'>Contact us</p>
            
             <h1 className='text-center mb-6'>Let’s Start a Conversation</h1>
             <p className='text-mediumgray text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
@@ -40,13 +40,13 @@ const page = () => {
        <div className='w-full lg:max-w-3xl mt-8'>
                 <form action="/" className='flex flex-col gap-4 '>
                     <div>
-                        <input type="text" placeholder='Full Name' className='w-full py-6 pl-6 border border-black border-opacity-50'/>
+                        <input type="text" placeholder='Full Name' className='w-full py-6 pl-6 border border-black border-opacity-50 placeholder-black font-inter text-base font-normal leading-7'/>
                     </div>
                     <div>
-                        <input type="email" placeholder='Your Email' className='w-full py-6 pl-6 border border-black border-opacity-50'/>
+                        <input type="email" placeholder='Your Email' className='w-full py-6 pl-6 border border-black border-opacity-50 placeholder-black font-inter text-base font-normal leading-7'/>
                     </div>
                     <div>
-                        <select id='category' name="category" className='w-full py-6 pl-6 border border-black border-opacity-50'>
+                        <select id='category' name="category" className='w-full py-6 pl-6 border border-black border-opacity-50 '>
                             <option value="general">Query Related</option>
                             <option value="general">Technical Support</option>
                             <option value="general">Billing</option>

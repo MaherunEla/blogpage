@@ -10,8 +10,8 @@ import SwiperNextButton from "./SwiperNextButton";
 const Testimonial = () => {
   const author = AllBlogdata.slice(0, 4);
   return (
-    <div className="container bg-lightyellow py-20 px-20 lg:py-[92px] lg:px-[112px] gap-24">
-      <div className="grid grid-cols-1 md:grid-cols-2 ">
+    <div className="container bg-lightyellow py-12 px-8 lg:py-24 lg:px-28 gap-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
         <div className="w-full lg:max-w-xs ">
           <span className="uppercase font-inter text-base font-semibold tracking-[3px] leading-5 mb-3">
             TESTIMONIALs
@@ -27,7 +27,7 @@ const Testimonial = () => {
           slidesPreView={3}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
-          className="w-full relative"
+          className="mt-8 lg:mt-0 w-full relative"
         >
          
           <div className="flex absolute bottom-0 right-0 z-10 gap-6">
@@ -37,7 +37,7 @@ const Testimonial = () => {
           {author.map((item, index) => (
             <SwiperSlide key={index}>
               <div>
-                <h4 className="mb-[121px] ">
+                <h4 className="mb-5 lg:mb-[121px] ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </h4>
@@ -51,7 +51,7 @@ const Testimonial = () => {
                   />
                   <div>
                     <h4>{item.authors.title}</h4>
-                    <span className="b1">{item.authors.address}</span>
+                    <span className="b1 ">{item.authors.address}</span>
                   </div>
                 </div>
               </div>

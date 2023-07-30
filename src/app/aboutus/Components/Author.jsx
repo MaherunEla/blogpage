@@ -33,10 +33,10 @@ const Author = () => {
               </span>
             </div>
             <div className="flex flex-row items-center gap-4 ">
-              <BsFacebook className="fill-mediumgray" />
-              <BiLogoTwitter className="fill-mediumgray" />
-              <AiOutlineInstagram className="fill-mediumgray" />
-              <AiFillLinkedin className="fill-mediumgray" />
+              <BsFacebook className="fill-black" />
+              <BiLogoTwitter className="fill-black" />
+              <AiOutlineInstagram className="fill-black" />
+              <AiFillLinkedin className="fill-black" />
             </div>
           </div>
 

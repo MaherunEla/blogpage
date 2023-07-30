@@ -10,12 +10,12 @@ const CategoryPost = () => {
     const category = AllBlogdata.slice(0,4);
   return (
     <div className='container py-32'>
-        <div className='flex flex-row '>
+        <div className='flex flex-col xl:flex-row gap-4'>
             <div className='flex flex-col flex-1 gap-8'>
             {
                 post.map((item,index)=>(
                     <Link href={`/blog/${item.slug}`} key={index}>
-                        <div className='flex flex-row gap-8' >
+                        <div className='flex flex-col lg:flex-row gap-8' >
                 <div className='w-full lg:w-[294px] h-[312px] relative'>
                     <Image src={item.image} fill objectFit="cover" alt="post"/>
 
@@ -63,15 +63,15 @@ const CategoryPost = () => {
 
                 <h2 className='mb-6'>All Tags</h2>
                 <div className='flex flex-col gap-4'>
-                    <div className='flex flex-row gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
                         <span className='py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Business</span>
                         <span className='py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Experience</span>
                     </div>
-                    <div className='flex flex-row gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
                         <span className='py-4 px-12 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Screen</span>
                         <span className='py-4 px-12 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Technology</span>
                     </div>
-                    <div className='flex flex-row gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
                         <span className='px-16 py-4 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Marketing</span>
                         <span className='py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Life</span>
                     </div>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AppFeature = () => {
   return (
-    <div className='container py-32'>
+    <div className='container py-12 lg:py-32'>
         <div className='flex flex-col md:flex-row  gap-[45px]'>
             <div className='flex flex-col text-mediumgray'>
                 <span>We are</span>
@@ -11,7 +11,7 @@ const AppFeature = () => {
 
 
             </div>
-            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center justify-center gap-[75px]'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 items-center justify-center gap-[75px]'>
                 <div className='w-[160px] h-[32px] relative'>
                 <Image src="/assets/images/Home/Logo 1.svg" fill alt="logo"/>
 

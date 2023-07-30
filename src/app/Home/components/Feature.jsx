@@ -8,7 +8,7 @@ const Feature = () => {
   console.log({post});
   return (
     <div className='container py-32'>
-        <div className='flex flex-col lg:flex-row items-center justify-between gap-8'>
+        <div className='flex flex-col xl:flex-row items-center justify-between gap-8'>
             <div className=' w-full lg:w-[733px]'>
                 <h2 className='mb-8'>Featured Post</h2>
                 <div className='border border-mediumgray border-opacity-40 flex flex-col gap-8 p-8'>

@@ -16,30 +16,36 @@ const AboutDetails = () => {
 
         </div>
         
-        <div className='w-full lg:w-[1280px] h-[444px] relative xl:-mt-10'>
+        <div className='w-full h-[200px] lg:w-[1280px] lg:h-[444px] relative xl:-mt-10'>
             <Image src='/assets/images/About/aboutbg.png' fill objectFit='cover' alt="about"/>
 
         </div>
-        <div className='-mt-[160px] ml-[109px]  hidden lg:block'>
-            <div className='grid grid-cols-3 justify-between gap-[86px] bg-yellow py-8 px-10 w-[630px]'>
+        <div className='lg:-mt-[151px] xl:-mt-[200px] lg:ml-28 absolute hidden xl:block'>
+            <div className='grid grid-cols-3  gap-16 bg-yellow py-8 px-12 lg:w-[630px] '>
                 <div>
-                    <span className='display'> 12+</span>
-                    <span className='b1'>Blogs Published</span>
+                    <h1 className='display'> 12+</h1>
+                    <p className='b1'>Blogs Published</p>
                 </div>
                 <div>
-                    <span className='display'> 18K+</span>
+                    <h1 className='display'> 18K+</h1>
                     <span className='b1'>Views on Finsweet</span>
                 </div>
                 <div>
-                    <span className='display'> 30K+</span>
-                    <span className='b1'>Total active Users</span>
+                    <h1 className='display'>30K+</h1>
+                    <p className='b1'>Total active Users</p>
                 </div>
+                
+
+            </div>
+            <div className='flex justify-start'>
+                <div className='w-[311px] h-[23] bg-[#592EA9]'></div>
+                <div className='w-[550px] h-[23px] bg-[#FFD050]'></div>
 
             </div>
         </div>
         <div className=' bg-levender '>
         
-        <div className='flex flex-col md:flex-row gap-[82px] py-[96px] px-[80px]'>
+        <div className='flex flex-col md:flex-row gap-[82px] py-12 px-8 xl:py-[96px] xl:px-[80px]'>
             <div className='flex flex-col gap-6 w-full lg:w-[494px]'>
                 <span className='font-inter text-base font-semibold leading-5 tracking-[3px] uppercase'>Our mision</span>
                 <div className='flex flex-col gap-4'>

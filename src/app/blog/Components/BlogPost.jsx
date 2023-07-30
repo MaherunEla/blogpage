@@ -53,7 +53,7 @@ const BlogPost = () => {
                             <Image src={item.image} fill alt="postimage" />
 
                         </div>
-                        <div >
+                        <div className='w-full' >
                             <span className='font-inter text-base font-medium leading-5 tracking-[3px] text-purple uppercase mb-5'>
                            {item.category.name}
                             </span>
