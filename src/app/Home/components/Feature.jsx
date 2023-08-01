@@ -11,7 +11,7 @@ const Feature = () => {
         <div className='flex flex-col xl:flex-row items-center justify-between gap-8'>
             <div className=' w-full lg:w-[733px]'>
                 <h2 className='mb-8'>Featured Post</h2>
-                <div className='border border-mediumgray border-opacity-40 flex flex-col gap-8 p-8'>
+                <div className='border border-mediumgray border-opacity-10 flex flex-col gap-8 p-8'>
                     <div className='w-full h-[300px] lg:w-[669px] lg:h-[352px] relative'>
                     <Image src="/assets/images/Home/homeab.png" fill alt="feature"/>
                     </div>
