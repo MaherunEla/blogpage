@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import { useParams } from 'next/navigation';
-import { AllBlogdata } from '@/app/Home/components/AllData';
+import { AllBlogdata } from "@/app/home/Components/AllData";
 
 const CategoryHero = () => {
     const param=useParams()

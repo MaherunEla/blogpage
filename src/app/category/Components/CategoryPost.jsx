@@ -1,9 +1,10 @@
 "use client";
 import React from 'react'
 import { useParams } from 'next/navigation'
-import { AllBlogdata } from '@/app/Home/components/AllData'
+
 import Image from 'next/image'
 import Link from 'next/link';
+import { AllBlogdata } from '@/app/home/Components/AllData';
 const CategoryPost = () => {
     const param = useParams()
     const post = AllBlogdata.filter(item=>item.category.slug==param?.slug)

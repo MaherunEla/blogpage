@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { AllBlogdata } from "@/app/Home/components/AllData";
+import { AllBlogdata } from "@/app/home/Components/AllData";
 import {BsFacebook} from 'react-icons/bs'
 import {BiLogoTwitter} from 'react-icons/bi'
 import {AiFillLinkedin,AiOutlineInstagram} from 'react-icons/ai'
