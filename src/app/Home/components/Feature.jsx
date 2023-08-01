@@ -44,7 +44,7 @@ const Feature = () => {
               {
                 post.map((item,index)=>(
                   <Link href={`/blog/${item.slug}` }key={index}>
-                  <div className='flex flex-col py-8 px-8 hover:border hover:border-lightyellow hover:bg-lightyellow  h-full lg:h-[181px]' >
+                  <div className='flex flex-col py-8 px-8 hover:bg-lightyellow  h-full lg:h-[181px]' >
                     <span className='l1'>By <span className='text-purple'>{item.authors.title}</span>  l  <span>{item.date}</span>  </span>
                     <h4>{item.title}</h4>
 
