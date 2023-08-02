@@ -15,7 +15,7 @@ const HomeAbout = () => {
         </div>
          <div className=' bg-levender '>
         
-        <div className='flex flex-col md:flex-row gap-[61px] py-[96px] px-[80px]'>
+        <div className='flex flex-col md:flex-row gap-[61px] py-[48px] lg:py-[96px] px-[40px] lg:px-[80px]'>
             <div className='flex flex-col gap-6 w-full lg:w-[494px]'>
                 <span className='text-black font-inter text-base font-semibold leading-5 tracking-[3px] '>ABOUT US</span>
                 <div className='flex flex-col gap-4'>

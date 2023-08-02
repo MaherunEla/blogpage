@@ -17,7 +17,7 @@ const AuthorPage = () => {
    
       <div>
         <div className="bg-levender">
-          <div className="container flex flex-col items-center justify-center py-32 ">
+          <div className="container flex flex-col items-center justify-center py-32">
             <div className="flex flex-row gap-8">
              
                 <div className="w-full h-[250px] lg:w-[251px] lg:h-[250px] relative">
@@ -59,7 +59,7 @@ const AuthorPage = () => {
   
             </div>
             <div className="flex flex-col justify-center gap-5 w-full xl:w-[560px]">
-              <span className="text-purple uppercase text-base font-semibold leading-5 tracking-[3px]">{item.category.name}</span>
+              <span className="text-purple font-inter uppercase text-base font-semibold leading-5 tracking-[3px]">{item.category.name}</span>
               <h2>{item.title}</h2>
               <p className="text-mediumgray">{item.content}</p>
   
