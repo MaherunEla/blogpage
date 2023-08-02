@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className='container flex flex-col items-center justify-center py-32 '>
         <div className='w-full lg:max-w-3xl mb-16'>
-            <p className='text-center text-base font-black leading-10 tracking-[3px] mb-3 uppercase'>Contact us</p>
+            <p className='text-center text-black text-base font-black leading-10 tracking-[3px] mb-3 uppercase'>Contact us</p>
            
             <h1 className='text-center mb-6'>Let’s Start a Conversation</h1>
             <p className='text-mediumgray text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
@@ -15,7 +15,7 @@ const page = () => {
         <div className='py-12 px-16 bg-purple w-full lg:max-w-3xl'>
             <div className='flex flex-col md:flex-row gap-10'>
                 <div className='w-full lg:w-[294px]'>
-                <span className=' font-inter text-lg font-normal text-white opacity-60 '>Working hours</span>
+                <span className=' font-inter text-sm font-normal text-white opacity-60 '>Working hours</span>
                 <hr className='bg-white opacity-50 mb-4 mt-4'></hr>
             <h5 className='text-white'>Monday To Friday</h5>
             <h5 className='text-white'>9:00 AM to 8:00 PM </h5>
@@ -24,7 +24,7 @@ const page = () => {
 
                 </div>
                 <div className='w-full lg:w-[294px]'>
-                <span className=' font-inter text-lg font-normal text-white opacity-60 '>Contact Us</span>
+                <span className=' font-inter text-sm font-normal text-white opacity-60 '>Contact Us</span>
                 <hr className='bg-white opacity-50 mb-4 mt-4'></hr>
             <h5 className='text-white'>020 7993 2905</h5>
           
@@ -60,7 +60,7 @@ const page = () => {
 
                 </form>
 
-            </div> 
+            </div>  
 
     </div>
   )

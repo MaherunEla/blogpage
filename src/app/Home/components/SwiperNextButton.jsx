@@ -4,11 +4,11 @@ import { useSwiper } from 'swiper/react'
 const SwiperNextButton = () => {
     const swiper = useSwiper();
   return (
-   <button className='w-[48px] h-[48px] border rounded-full border-white bg-white' onClick={()=>{
+   <button className='w-[62px] h-[62px] border rounded-full border-black bg-black' onClick={()=>{
     swiper.slideNext();
 
    }}>
-    <BsArrowRight className='ml-3'/>
+    <BsArrowRight className='ml-3 fill-white' size={32}/>
 
    </button>
   )

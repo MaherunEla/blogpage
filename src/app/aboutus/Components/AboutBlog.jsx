@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const AboutBlog = () => {
   return (
-    <div className='container py-32 '>
-        <div className='flex flex-col gap-32'>
-        <div className='flex flex-col xl:flex-row xl:items-center xl:justify-between gap-[137px]'>
-            <div className='w-full md:w-[430px] lg:max-w-lg '>
+    <div className='container py-12 lg:py-32 '>
+        <div className='flex flex-col gap-12 lg:gap-32'>
+        <div className='flex flex-col lg:flex-row xl:items-center xl:justify-between gap-[137px]'>
+            <div className='w-full lg:max-w-lg '>
                 <h2 className='mb-4'>Our team of creatives</h2>
                 <h4 className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
                 <span className='b1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</span>
@@ -24,7 +24,7 @@ const AboutBlog = () => {
 
         </div>
 
-        <div className='flex flex-col lg:flex-row xl:items-center xl:justify-between gap-32'>
+        <div className='flex flex-col lg:flex-row xl:items-center xl:justify-between gap-12 lg:gap-32'>
            
             <div className='relative'>
                <div className='w-full h-[300px] lg:w-[624px] lg:h-[480px] relative'>

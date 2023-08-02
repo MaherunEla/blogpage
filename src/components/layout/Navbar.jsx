@@ -23,10 +23,10 @@ const Navbar = () => {
             <div className='hidden md:flex flex-row items-center  gap-6 text-white'>
                 {
                     navdata.map((item,index)=>(
-                        <Link href={item.href} key={index} className='b1 font-inter'>{item.page}</Link>
+                        <Link href={item.href} key={index} className='b1 font-inter text-white'>{item.page}</Link>
                     ))
                 }
-                <Link href="/" className='button text-black bg-white font-sen'>Subscribe</Link>
+                <Link href="/" className='button font-bold leading-6 text-lg  text-black bg-white font-sen '>Subscribe</Link>
               {/* mobile icon */}
             
             </div>

@@ -19,10 +19,10 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row items-center  gap-6 text-white'>
                 {
                     navdata.map((item,index)=>(
-                        <Link href={item.href} key={index} className='b1 font-inter'>{item.page}</Link>
+                        <Link href={item.href} key={index} className='b1 font-inter text-white'>{item.page}</Link>
                     ))
                 }
-                <Link href="/privacy" className='b1 font-inter'>Privacy Policy</Link>
+                <Link href="/privacy" className='b1 font-inter text-white'>Privacy Policy</Link>
               {/* mobile icon */}
             
             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
             <h2 className=' text-white text-start w-full lg:w-[562px]'>Subscribe to our news letter to get latest updates and news</h2>
             <form action="/" className='flex  flex-col lg:flex-row gap-6 '>
                 <div>
-                <input type="email" placeholder='Enter Your Email' className='w-full lg:w-[323px]  h-14 pl-6 py-3 border border-darkgray text-darkgray bg-[#2E3040]' value=""/>
+                <input type="email" placeholder='Enter Your Email' className='w-full lg:w-[323px]  h-14 pl-6 py-3 border border-darkgray placeholder-mediumgray bg-[#2E3040]' value=""/>
 
                 </div>
                
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className=' py-12 flex flex-col gap-2 md:flex-row justify-between'>
 
-        <div className='flex flex-col b1 text-mediumgray'>
+        <div className='flex flex-col b1 text-white/60'>
             <span>Finstreet 118 2561 Fintown</span>
             <span>Hello@finsweet.com  020 7993 2905</span>
 

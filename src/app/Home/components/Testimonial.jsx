@@ -13,7 +13,7 @@ const Testimonial = () => {
     <div className="container bg-lightyellow py-12 px-8 lg:py-24 lg:px-28 gap-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
         <div className="w-full lg:max-w-xs ">
-          <span className="uppercase font-inter text-base font-semibold tracking-[3px] leading-5 mb-3">
+          <span className="text-black uppercase font-inter text-base font-semibold tracking-[3px] leading-5 mb-3">
             TESTIMONIALs
           </span>
           <h2 className="mb-4">What people say about our blog</h2>
@@ -30,7 +30,7 @@ const Testimonial = () => {
           className="mt-8 lg:mt-0 w-full relative"
         >
          
-          <div className="flex absolute bottom-0 right-0 z-10 gap-6">
+          <div className="flex items-center justify-center absolute bottom-0 right-0 z-10 gap-6">
             <SwiperPrevButton/>
             <SwiperNextButton/>
           </div>
@@ -51,7 +51,7 @@ const Testimonial = () => {
                   />
                   <div>
                     <h4>{item.authors.title}</h4>
-                    <span className="b1 ">{item.authors.address}</span>
+                    <span className="b1 text-mediumgray">{item.authors.address}</span>
                   </div>
                 </div>
               </div>

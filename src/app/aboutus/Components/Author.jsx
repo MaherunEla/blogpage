@@ -9,7 +9,7 @@ import Link from "next/link";
 const Author = () => {
   const author = AllBlogdata.slice(0, 8);
   return (
-    <div className="container py-32">
+    <div className="container">
       <h2 className="text-center mb-12">List of Authors</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {author.map((item, index) => (

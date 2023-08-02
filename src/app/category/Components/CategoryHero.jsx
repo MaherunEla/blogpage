@@ -9,9 +9,9 @@ const CategoryHero = () => {
   return (
     <div className='bg-levender'>
         <div className='container flex flex-col items-center justify-center py-20'>
-            <span className='display'>{category.category.name}</span>
-            <p className='font-normal'>{category.content}</p>
-            <span className='p-text uppercase'>Blog &#8250; Business</span>
+            <span className='display mb-4'>{category.category.name}</span>
+            <p className='font-normal mb-8'>{category.content}</p>
+            <span className='p_text uppercase'>Blog &#8250; Business</span>
 
         </div>
 

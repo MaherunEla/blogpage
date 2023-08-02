@@ -43,8 +43,9 @@ const BlogPost = () => {
 
   return (
     <div className='container py-[64px] '>
-        <h1>All posts</h1>
-        <div className='py-24 grid grid-cols-1 gap-16'>
+        <h1 className='mb-8'>All posts</h1>
+        <hr className='w-full bg-mediumgray mb-[64px]'></hr>
+        <div className=' grid grid-cols-1 gap-16'>
             {
                 selectedItem.map((item,index)=>(
                     <Link href={`/blog/${item.slug}`} key={index}>
@@ -71,9 +72,9 @@ const BlogPost = () => {
             }
 
         </div>
-        <div className='flex flex-col items-start md:items-center'>
+        <div className='mt-[69px] flex flex-col items-start md:items-center'>
             <div className='flex flex-row space-x-2 md:space-x-5'>
-            <button disabled={isPrevDisabled} onClick={PrevhandleClick}><h3>&#8249; <span>Prev</span></h3></button>
+            <button disabled={isPrevDisabled} onClick={PrevhandleClick}><h4 className='text-mediumgray'>&#8249; <span>Prev</span></h4></button>
             <button disabled={isNextDisabled} onClick={NexthandleClick}><h3>Next<span> &#8250;</span></h3></button>
 
             </div>

@@ -7,7 +7,7 @@ export const AllBlogdata = [
         slug:"business"
       },
       slug:"design-tips-for-designers-that-cover-everything-you-need",
-      icon: '/assets/images/Home/Icon.svg',
+      icon: '/assets/images/Home/Group 9200.svg',
       date: "Aug 23, 2021",
       title: "Design tips for designers that cover everything you need",
       subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
@@ -106,7 +106,7 @@ export const AllBlogdata = [
         name:"Business",
         slug:"business"
       },
-      slug:"font-sizes-in-UI-design:-The complete-guide-to-follow",
+      slug:"font-sizes-in-UI-design:-The-complete-guide-to-follow",
       date: "Aug 23, 2021",
       icon: '/assets/images/home/catagory1.svg',
       title: "Font sizes in UI design: The complete guide to follow",

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { IoIosArrowForward } from 'react-icons/io'
 import { AllBlogdata } from './AllData'
 
 const Feature = () => {
@@ -22,10 +23,11 @@ const Feature = () => {
                     
 
                     </div>
-                    <div>
-                    <Link href="/blog/?page=1" className='bg-yellow button'>Read More &#8250;</Link>
+                    <div className='flex flex-row items-center border w-[204px] h-[56px] border-yellow bg-yellow'>
+                <Link href="/blog/?page=1" className="pl-[45px] text-sm md:text-lg font-bold text-black ">Read More </Link>
+                <IoIosArrowForward className="mt-2px fill-[#232536]"/>
 
-                    </div>
+                </div>
                    
                     
                     

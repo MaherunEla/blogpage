@@ -46,7 +46,7 @@ const CategoryPost = () => {
                     {
                         category.map((item,index)=>(
                             <Link href={`/category/${item.category.slug}`} key={index}>
-                                <div className='flex flex-row gap-4 py-7 pl-6 pr-20  border border-mediumgray border-opacity-40 hover:bg-yellow' >
+                                <div className='flex flex-row items-center  gap-4 py-7 pl-6 pr-20  border-[1.5px] border-mediumgray border-opacity-40 hover:bg-yellow' >
                                 <div className='h-[48px] w-[48px] rounded-lg border-lightyellow bg-lightyellow'>
                                 <Image className="m-3" src={item.icon} width={23} height={23} alt="icon"/>
                                 </div>
@@ -64,17 +64,17 @@ const CategoryPost = () => {
 
                 <h2 className='mb-6'>All Tags</h2>
                 <div className='flex flex-col gap-4'>
-                    <div className='flex flex-col md:flex-row gap-4'>
-                        <span className='py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Business</span>
-                        <span className='py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Experience</span>
+                    <div className='flex flex-col md:flex-row  gap-4'>
+                        <span className='text-black py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Business</span>
+                        <span className='text-black py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Experience</span>
                     </div>
                     <div className='flex flex-col md:flex-row gap-4'>
-                        <span className='py-4 px-12 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Screen</span>
-                        <span className='py-4 px-12 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Technology</span>
+                        <span className='text-black py-4 px-12 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Screen</span>
+                        <span className='text-black py-4 px-12 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Technology</span>
                     </div>
                     <div className='flex flex-col md:flex-row gap-4'>
-                        <span className='px-16 py-4 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Marketing</span>
-                        <span className='py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Life</span>
+                        <span className='text-black px-16 py-4 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Marketing</span>
+                        <span className='text-black py-4 px-9 font-sen text-lg font-bold leading-8 border border-mediumgray rounded-full'>Life</span>
                     </div>
 
                 </div>
