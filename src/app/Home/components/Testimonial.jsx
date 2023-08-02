@@ -42,14 +42,15 @@ const Testimonial = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </h4>
 
-                <div className="flex flex-col  lg:flex-row gap-4">
+                <div className="flex flex-col lg:flex-row gap-4">
                   <Image
                     src={item.authors.image}
                     width={48}
                     height={48}
                     alt="author"
+                    
                   />
-                  <div>
+                  <div className="">
                     <h4>{item.authors.title}</h4>
                     <span className="b1 text-mediumgray">{item.authors.address}</span>
                   </div>
