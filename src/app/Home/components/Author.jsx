@@ -27,7 +27,7 @@ const Author = () => {
               />
             </div>
             <div className="gap-1 text-center">
-              <h3>{item.authors.title}</h3>
+              <h3 className="mb-[2px]">{item.authors.title}</h3>
               <span className="w-[240px] text-mediumgray font-inter text-sm font-normal leading-5">
                 {item.authors.subTitle}
               </span>

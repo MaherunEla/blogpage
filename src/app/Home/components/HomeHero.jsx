@@ -4,9 +4,9 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 const HomeHero = () => {
   return (
-    <div className={`bg-[url('/assets/images/Home/homebg.png')] bg-style w-screen h-full lg:h-[calc(100vh -72px)]`}>
+    <div className={`bg-[url('/assets/images/Home/homebg.png')] bg-style w-screen h-full lg:h-[calc(100vh -88px)]`}>
         <div className="w-full h-full" style={{background: "radial-gradient(80.99% 71.93% at 74.58% 0.00%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%)"}}>
-            <div className='container flex flex-col py-36 gap-6 '>
+            <div className='container flex flex-col py-12 lg:py-36 gap-6 '>
                 <span className='p_text font-medium text-white'>Posted on <span className='font-black'>startup</span></span>
                 <h1 className='display  lg:w-[803px] text-white'>Step-by-step guide to choosing great font pairs</h1>
                

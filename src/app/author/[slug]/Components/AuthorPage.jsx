@@ -53,7 +53,7 @@ const AuthorPage = () => {
           post.map((item,index)=>(
             <Link href={`/blog/${item.slug}` } key={index}>
             
-          <div className="flex flex-col lg:flex-row justify-between gap-16" >
+          <div className="flex flex-col lg:flex-row justify-between gap-8" >
             <div className="w-full h-[320px] lg:w-[412px] relative">
               <Image src={item.image} fill objectFit="cover" alt="post" />
   

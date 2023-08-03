@@ -50,14 +50,14 @@ const BlogPost = () => {
                 selectedItem.map((item,index)=>(
                     <Link href={`/blog/${item.slug}`} key={index}>
                         <div className='flex flex-col md:flex-row items-center justify-between gap-8'>
-                        <div className='w-full h-[280px] lg:w-[490px] lg:h-[318px] relative'>
+                        <div className='shrink-0 w-full h-[280px] lg:w-[490px] lg:h-[318px] relative'>
                             <Image src={item.image} fill alt="postimage" />
 
                         </div>
-                        <div className='w-full' >
-                            <span className='font-inter text-base font-medium leading-5 tracking-[3px] text-purple uppercase mb-5'>
+                        <div className='w-full ' >
+                            <h6 className='font-inter text-base font-semibold leading-5 tracking-[3px] text-purple uppercase mb-5'>
                            {item.category.name}
-                            </span>
+                            </h6>
                             <h2 className='mb-4'>{item.title}</h2>
                             <p className='text-mediumgray'>{item.subTitle}</p>
 

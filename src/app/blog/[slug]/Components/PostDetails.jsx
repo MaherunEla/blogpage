@@ -25,8 +25,8 @@ const PostDetails = () => {
                 </div>
                 
                 <div>
-                <h3 className='text-purple'>{blog.authors.title}</h3>
-                <span className=' b1 text-mediumgray'>Posted on {blog.date}</span>
+                <h3 className='text-purple mb-[2px]'>{blog.authors.title}</h3>
+                <h6 className=' b1 text-mediumgray'>Posted on {blog.date}</h6>
 
                 </div>
                 
@@ -54,19 +54,19 @@ const PostDetails = () => {
           <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>
           <div className='flex flex-row gap-3'>
             <Image src="/assets/images/Blog/pointer.svg" width={5} height={5} alt="pointer"/>
-            <h4 className='text-[#161722]'>Lorem ipsum dolor sit amet</h4>
+            <h4 className='text-[#161722] opacity-[0.78]'>Lorem ipsum dolor sit amet</h4>
 
 
           </div>
           <div className='flex flex-row gap-3'>
             <Image src="/assets/images/Blog/pointer.svg" width={5} height={5} alt="pointer"/>
-            <h4 className='text-[#161722]'>Non blandit massa enim nec scelerisque</h4>
+            <h4 className='text-[#161722] opacity-[0.78]'>Non blandit massa enim nec scelerisque</h4>
             
 
           </div>
           <div className='flex flex-row gap-3 mb-6'>
             <Image src="/assets/images/Blog/pointer.svg" width={5} height={5} alt="pointer"/>
-            <h4 className='text-[#161722]'>Neque egestas congue quisque egestas</h4>
+            <h4 className='text-[#161722] opacity-[0.78]'>Neque egestas congue quisque egestas</h4>
             
 
           </div>

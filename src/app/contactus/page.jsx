@@ -60,7 +60,7 @@ const page = () => {
 
                 </form>
 
-            </div>  
+            </div>   
 
     </div>
   )

@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${sen.variable} ${inter.variable}`}>
          <Navbar/> 
         {children}
-       <Footer/> 
+       <Footer/>  
         </body>
     </html>
   )

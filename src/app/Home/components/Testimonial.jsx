@@ -13,9 +13,9 @@ const Testimonial = () => {
     <div className="container bg-lightyellow py-12 px-8 lg:py-24 lg:px-28 gap-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24">
         <div className="w-full lg:max-w-xs ">
-          <span className="text-black uppercase font-inter text-base font-semibold tracking-[3px] leading-5 mb-3">
+          <h6 className=" text-black uppercase font-inter text-base font-semibold tracking-[3px] leading-5 mb-3">
             TESTIMONIALs
-          </span>
+          </h6>
           <h2 className="mb-4">What people say about our blog</h2>
           <span className="b1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
