@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { useRouter,useSearchParams } from 'next/navigation';
-import { AllBlogdata } from '@/app/home/Components/AllData';
+import { AllBlogdata } from '@/app/Home/Components/AllData';
 import Link from 'next/link';
 import Image from 'next/image';
 

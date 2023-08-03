@@ -3,7 +3,7 @@ import React from 'react'
 import BlogHero from './Components/BlogHero'
 import BlogPost from './Components/BlogPost'
 import Category from './Components/Category';
-import JoinTeam from '../home/Components/JoinTeam';
+import JoinTeam from '../Home/Components/JoinTeam';
 
 
 const page = () => {

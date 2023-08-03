@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useParams } from "next/navigation";
-import { AllBlogdata } from "@/app/home/Components/AllData";
+import { AllBlogdata } from "@/app/Home/Components/AllData";
 import { BsFacebook } from "react-icons/bs";
 import { BiLogoTwitter } from "react-icons/bi";
 import { AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";

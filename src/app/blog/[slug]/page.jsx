@@ -1,6 +1,6 @@
 import React from 'react'
 import PostDetails from './Components/PostDetails'
-import JoinTeam from '@/app/home/Components/JoinTeam'
+import JoinTeam from '@/app/Home/Components/JoinTeam'
 
 const page = () => {
   

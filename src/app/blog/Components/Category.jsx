@@ -1,5 +1,5 @@
 import React from "react";
-import { AllBlogdata } from "@/app/home/Components/AllData";
+import { AllBlogdata } from "@/app/Home/Components/AllData";
 import Image from "next/image";
 import Link from "next/link";
 
