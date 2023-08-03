@@ -1,12 +1,13 @@
 "use client";
 import React from "react";
 import { useParams } from "next/navigation";
-import { AllBlogdata } from "@/app/Home/Components/AllData";
+
 import { BsFacebook } from "react-icons/bs";
 import { BiLogoTwitter } from "react-icons/bi";
 import { AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 import Image from "next/image";
 import Link from "next/link";
+import { AllBlogdata } from "./src/app/Home/Components/AllData";
 
 const AuthorPage = () => {
     const param = useParams();
